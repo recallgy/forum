@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+#blog{
+	width: auto;
+	height: auto;
+	border: 2px solid #ccc;
+	font-size: 13px;
+}
+#blog h2{
+	text-indent: 0;
+	text-align: center;
+}
+
+#blog dl{
+	width:200px;
+	margin:10px 0 0 60px;
+	float:left;
+}
+
+#blog dl dt{
+	margin:0 0 5px 0;
+	width:200px;
+	border:1px solid black;
+}
+#blog dl dt img{
+	margin:0 auto;
+	display:block;
+}
+
+
+#blog dl dd{
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	width:100px;
+	float:left;
+}
+
+#blog dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+
+#blog dl dd.username{
+	width:200px;
+	float:none;
+	color:#f60;
+}

@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+#post{
+	width: auto;
+	height: auto;
+	border: 2px solid #ccc;
+	font-size: 13px;
+	position:relative;
+}
+#post h2{
+	text-indent: 0;
+	text-align: center;
+}
+#post dl{
+	width: 450px;
+	margin: 0 auto;
+}
+#post dl dt{
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+
+}
+#post dl dd input.text{
+	width: 250px;
+	height: 19px;
+	border: 1px solid #333;
+	background: #fff;
+}
+#post dl dd{
+	padding: 5px 0;
+}
+
+#post dl dd{
+	cursor:pointer;
+}
+
+
+#post dl dd input.submit{
+	width: 75px;
+	height: 21px;
+	border: 1px solid #333;
+	background: #fff;
+	cursor: pointer;
+	margin:0 0 0 20px;
+	color:#333;
+}
+
+#post dl dd input.submit:hover{
+	background:#eee;
+}
+
+#post dl dd textarea{
+	width:420px;
+	height:200px;
+	border:1px solid #333;
+	background:#fff;
+	border-top:none;
+}
+
+
+#post dl dd input.yzm{
+	width: 60px;
+}
+#post dl dd img#code{
+	position:relative;
+	top:8px;
+	left:10px;
+	cursor:pointer;
+}
+
+#post dl dd div#ubb{
+	width:420px;
+	height:26px;
+	background:#555;
+	border:1px dashed #333;
+	border-bottom:1px solid #666;
+}
+
+#post dl dd div#font{
+	display:none;
+	width:125px;
+	height:40px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+	position:absolute;
+	top:203px;
+	left:260px;
+}
+#post dl dd div#font strong{
+	font-weight:normal;
+	background:#fff;
+	cursor:default;
+	border:1px solid #ccc;
+}
+
+#post dl dd div#ubb input{
+	width:20px;
+}
+
